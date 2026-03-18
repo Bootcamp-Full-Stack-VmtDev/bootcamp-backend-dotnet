@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "83SNMQWLtoU=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Developer\\Downloads\\Bootcamp\\bootcamp-backend-dotnet\\evolucion-y-anatomia-dot-net\\CsharpIntroduction\\Application\\Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Developer\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.23.0\\microsoft.visualstudio.azure.containers.tools.targets.1.23.0.nupkg.sha512"
+  ],
+  "logs": []
+}

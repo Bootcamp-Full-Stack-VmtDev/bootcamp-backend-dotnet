@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Developer\\Downloads\\Bootcamp\\bootcamp-backend-dotnet\\evolucion-y-anatomia-dot-net\\CsharpIntroduction\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2948F902-A77B-4D32-8810-4B75D69D34B6}|CsharpIntroduction.Startup\\CsharpIntroduction.Startup.csproj|c:\\users\\developer\\downloads\\bootcamp\\bootcamp-backend-dotnet\\evolucion-y-anatomia-dot-net\\csharpintroduction\\csharpintroduction.startup\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2948F902-A77B-4D32-8810-4B75D69D34B6}|CsharpIntroduction.Startup\\CsharpIntroduction.Startup.csproj|solutionrelative:csharpintroduction.startup\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2948F902-A77B-4D32-8810-4B75D69D34B6}|CsharpIntroduction.Startup\\CsharpIntroduction.Startup.csproj|c:\\users\\developer\\downloads\\bootcamp\\bootcamp-backend-dotnet\\evolucion-y-anatomia-dot-net\\csharpintroduction\\csharpintroduction.startup\\models\\command.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2948F902-A77B-4D32-8810-4B75D69D34B6}|CsharpIntroduction.Startup\\CsharpIntroduction.Startup.csproj|solutionrelative:csharpintroduction.startup\\models\\command.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2948F902-A77B-4D32-8810-4B75D69D34B6}|CsharpIntroduction.Startup\\CsharpIntroduction.Startup.csproj|c:\\users\\developer\\downloads\\bootcamp\\bootcamp-backend-dotnet\\evolucion-y-anatomia-dot-net\\csharpintroduction\\csharpintroduction.startup\\interfaces\\iapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2948F902-A77B-4D32-8810-4B75D69D34B6}|CsharpIntroduction.Startup\\CsharpIntroduction.Startup.csproj|solutionrelative:csharpintroduction.startup\\interfaces\\iapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2948F902-A77B-4D32-8810-4B75D69D34B6}|CsharpIntroduction.Startup\\CsharpIntroduction.Startup.csproj|c:\\users\\developer\\downloads\\bootcamp\\bootcamp-backend-dotnet\\evolucion-y-anatomia-dot-net\\csharpintroduction\\csharpintroduction.startup\\classes\\constant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2948F902-A77B-4D32-8810-4B75D69D34B6}|CsharpIntroduction.Startup\\CsharpIntroduction.Startup.csproj|solutionrelative:csharpintroduction.startup\\classes\\constant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2948F902-A77B-4D32-8810-4B75D69D34B6}|CsharpIntroduction.Startup\\CsharpIntroduction.Startup.csproj|c:\\users\\developer\\downloads\\bootcamp\\bootcamp-backend-dotnet\\evolucion-y-anatomia-dot-net\\csharpintroduction\\csharpintroduction.startup\\classes\\application.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2948F902-A77B-4D32-8810-4B75D69D34B6}|CsharpIntroduction.Startup\\CsharpIntroduction.Startup.csproj|solutionrelative:csharpintroduction.startup\\classes\\application.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Command.cs",
+              "DocumentMoniker": "C:\\Users\\Developer\\Downloads\\Bootcamp\\bootcamp-backend-dotnet\\evolucion-y-anatomia-dot-net\\CsharpIntroduction\\CsharpIntroduction.Startup\\Models\\Command.cs",
+              "RelativeDocumentMoniker": "CsharpIntroduction.Startup\\Models\\Command.cs",
+              "ToolTip": "C:\\Users\\Developer\\Downloads\\Bootcamp\\bootcamp-backend-dotnet\\evolucion-y-anatomia-dot-net\\CsharpIntroduction\\CsharpIntroduction.Startup\\Models\\Command.cs",
+              "RelativeToolTip": "CsharpIntroduction.Startup\\Models\\Command.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T16:24:24.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IApplication.cs",
+              "DocumentMoniker": "C:\\Users\\Developer\\Downloads\\Bootcamp\\bootcamp-backend-dotnet\\evolucion-y-anatomia-dot-net\\CsharpIntroduction\\CsharpIntroduction.Startup\\Interfaces\\IApplication.cs",
+              "RelativeDocumentMoniker": "CsharpIntroduction.Startup\\Interfaces\\IApplication.cs",
+              "ToolTip": "C:\\Users\\Developer\\Downloads\\Bootcamp\\bootcamp-backend-dotnet\\evolucion-y-anatomia-dot-net\\CsharpIntroduction\\CsharpIntroduction.Startup\\Interfaces\\IApplication.cs",
+              "RelativeToolTip": "CsharpIntroduction.Startup\\Interfaces\\IApplication.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T15:57:57.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Constant.cs",
+              "DocumentMoniker": "C:\\Users\\Developer\\Downloads\\Bootcamp\\bootcamp-backend-dotnet\\evolucion-y-anatomia-dot-net\\CsharpIntroduction\\CsharpIntroduction.Startup\\Classes\\Constant.cs",
+              "RelativeDocumentMoniker": "CsharpIntroduction.Startup\\Classes\\Constant.cs",
+              "ToolTip": "C:\\Users\\Developer\\Downloads\\Bootcamp\\bootcamp-backend-dotnet\\evolucion-y-anatomia-dot-net\\CsharpIntroduction\\CsharpIntroduction.Startup\\Classes\\Constant.cs",
+              "RelativeToolTip": "CsharpIntroduction.Startup\\Classes\\Constant.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T15:57:42.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Application.cs",
+              "DocumentMoniker": "C:\\Users\\Developer\\Downloads\\Bootcamp\\bootcamp-backend-dotnet\\evolucion-y-anatomia-dot-net\\CsharpIntroduction\\CsharpIntroduction.Startup\\Classes\\Application.cs",
+              "RelativeDocumentMoniker": "CsharpIntroduction.Startup\\Classes\\Application.cs",
+              "ToolTip": "C:\\Users\\Developer\\Downloads\\Bootcamp\\bootcamp-backend-dotnet\\evolucion-y-anatomia-dot-net\\CsharpIntroduction\\CsharpIntroduction.Startup\\Classes\\Application.cs",
+              "RelativeToolTip": "CsharpIntroduction.Startup\\Classes\\Application.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAYwG4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T15:57:23.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Developer\\Downloads\\Bootcamp\\bootcamp-backend-dotnet\\evolucion-y-anatomia-dot-net\\CsharpIntroduction\\CsharpIntroduction.Startup\\Program.cs",
+              "RelativeDocumentMoniker": "CsharpIntroduction.Startup\\Program.cs",
+              "ToolTip": "C:\\Users\\Developer\\Downloads\\Bootcamp\\bootcamp-backend-dotnet\\evolucion-y-anatomia-dot-net\\CsharpIntroduction\\CsharpIntroduction.Startup\\Program.cs",
+              "RelativeToolTip": "CsharpIntroduction.Startup\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T15:55:49.026Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
