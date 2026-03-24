@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "PracticeCalculator.Startup/1.0.0": {
+        "runtime": {
+          "PracticeCalculator.Startup.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PracticeCalculator.Startup/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "PracticeCalculator.Startup": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

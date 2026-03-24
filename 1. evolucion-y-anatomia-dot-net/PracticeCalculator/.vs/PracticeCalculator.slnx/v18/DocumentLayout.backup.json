@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\Downloads\\Bootcamp Full Stack - VmtDev\\bootcamp-backend-dotnet\\1. evolucion-y-anatomia-dot-net\\PracticeCalculator\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{399880DE-F0C2-48A4-9403-04FF226D0531}|PracticeCalculator.Startup\\PracticeCalculator.Startup.csproj|c:\\users\\usuario\\downloads\\bootcamp full stack - vmtdev\\bootcamp-backend-dotnet\\1. evolucion-y-anatomia-dot-net\\practicecalculator\\practicecalculator.startup\\classes\\application.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{399880DE-F0C2-48A4-9403-04FF226D0531}|PracticeCalculator.Startup\\PracticeCalculator.Startup.csproj|solutionrelative:practicecalculator.startup\\classes\\application.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{399880DE-F0C2-48A4-9403-04FF226D0531}|PracticeCalculator.Startup\\PracticeCalculator.Startup.csproj|c:\\users\\usuario\\downloads\\bootcamp full stack - vmtdev\\bootcamp-backend-dotnet\\1. evolucion-y-anatomia-dot-net\\practicecalculator\\practicecalculator.startup\\interfaces\\icalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{399880DE-F0C2-48A4-9403-04FF226D0531}|PracticeCalculator.Startup\\PracticeCalculator.Startup.csproj|solutionrelative:practicecalculator.startup\\interfaces\\icalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{399880DE-F0C2-48A4-9403-04FF226D0531}|PracticeCalculator.Startup\\PracticeCalculator.Startup.csproj|c:\\users\\usuario\\downloads\\bootcamp full stack - vmtdev\\bootcamp-backend-dotnet\\1. evolucion-y-anatomia-dot-net\\practicecalculator\\practicecalculator.startup\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{399880DE-F0C2-48A4-9403-04FF226D0531}|PracticeCalculator.Startup\\PracticeCalculator.Startup.csproj|solutionrelative:practicecalculator.startup\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{399880DE-F0C2-48A4-9403-04FF226D0531}|PracticeCalculator.Startup\\PracticeCalculator.Startup.csproj|c:\\users\\usuario\\downloads\\bootcamp full stack - vmtdev\\bootcamp-backend-dotnet\\1. evolucion-y-anatomia-dot-net\\practicecalculator\\practicecalculator.startup\\models\\operation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{399880DE-F0C2-48A4-9403-04FF226D0531}|PracticeCalculator.Startup\\PracticeCalculator.Startup.csproj|solutionrelative:practicecalculator.startup\\models\\operation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Application.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\Bootcamp Full Stack - VmtDev\\bootcamp-backend-dotnet\\1. evolucion-y-anatomia-dot-net\\PracticeCalculator\\PracticeCalculator.Startup\\Classes\\Application.cs",
+              "RelativeDocumentMoniker": "PracticeCalculator.Startup\\Classes\\Application.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Downloads\\Bootcamp Full Stack - VmtDev\\bootcamp-backend-dotnet\\1. evolucion-y-anatomia-dot-net\\PracticeCalculator\\PracticeCalculator.Startup\\Classes\\Application.cs",
+              "RelativeToolTip": "PracticeCalculator.Startup\\Classes\\Application.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T02:34:18.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ICalculator.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\Bootcamp Full Stack - VmtDev\\bootcamp-backend-dotnet\\1. evolucion-y-anatomia-dot-net\\PracticeCalculator\\PracticeCalculator.Startup\\Interfaces\\ICalculator.cs",
+              "RelativeDocumentMoniker": "PracticeCalculator.Startup\\Interfaces\\ICalculator.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Downloads\\Bootcamp Full Stack - VmtDev\\bootcamp-backend-dotnet\\1. evolucion-y-anatomia-dot-net\\PracticeCalculator\\PracticeCalculator.Startup\\Interfaces\\ICalculator.cs",
+              "RelativeToolTip": "PracticeCalculator.Startup\\Interfaces\\ICalculator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T02:33:22.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Operation.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\Bootcamp Full Stack - VmtDev\\bootcamp-backend-dotnet\\1. evolucion-y-anatomia-dot-net\\PracticeCalculator\\PracticeCalculator.Startup\\Models\\Operation.cs",
+              "RelativeDocumentMoniker": "PracticeCalculator.Startup\\Models\\Operation.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Downloads\\Bootcamp Full Stack - VmtDev\\bootcamp-backend-dotnet\\1. evolucion-y-anatomia-dot-net\\PracticeCalculator\\PracticeCalculator.Startup\\Models\\Operation.cs",
+              "RelativeToolTip": "PracticeCalculator.Startup\\Models\\Operation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T02:31:38.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Downloads\\Bootcamp Full Stack - VmtDev\\bootcamp-backend-dotnet\\1. evolucion-y-anatomia-dot-net\\PracticeCalculator\\PracticeCalculator.Startup\\Program.cs",
+              "RelativeDocumentMoniker": "PracticeCalculator.Startup\\Program.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Downloads\\Bootcamp Full Stack - VmtDev\\bootcamp-backend-dotnet\\1. evolucion-y-anatomia-dot-net\\PracticeCalculator\\PracticeCalculator.Startup\\Program.cs",
+              "RelativeToolTip": "PracticeCalculator.Startup\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T02:30:33.07Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
