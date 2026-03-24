@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="TalentInsights.Application/TalentInsights.Application.csproj" Id="7e6d14da-450d-4b65-8be8-79ff416701f0" />
+  <Project Path="TalentInsights.Shared/TalentInsights.Shared.csproj" Id="43eba15d-a7f5-4a2c-a36a-be664619dc3f" />
+  <Project Path="TalentInsights.WebApi/TalentInsights.WebApi.csproj" />
+</Solution>
