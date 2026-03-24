@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using TalentInsights.Application.Moldes.Request.Collaborator;
 
 namespace TalentInsights.WebApi.Controllers
 {
@@ -7,9 +8,9 @@ namespace TalentInsights.WebApi.Controllers
     public class CollaboratorsController : ControllerBase
     {
         [HttpPost]
-        public async Task<IActionResult> Create()
+        public async Task<IActionResult> Create([FromBody] CreateCollaboratorRequest model)
         {
-            return Ok("Usuario creado");
+            return Ok($"Usuario: {model.FullName} creado!");
         }
 
         /*
@@ -20,27 +21,27 @@ namespace TalentInsights.WebApi.Controllers
         }*/
 
         [HttpGet]
-        public async Task<IActionResult> GetAll()
+        public async Task<IActionResult> GetAll([FromQuery] GetAllColaboratorRequest model)
         {
-            return Ok("Todos los usuarios");
+            return Ok($"Todos los usuarios: limit: {model.Limit}, offset: {model.Offset}, gitlabProfile: {model.GitlabProfile}");
         }
 
-        [HttpPut]
-        public async Task<IActionResult> Update()
+        [HttpPut("{id:guid}")]
+        public async Task<IActionResult> Update([FromBody] UpdateCollaboratorRequest model, Guid id)
         {
-            return Ok("Usuario actualizado");
+            return Ok($"Usuario actualizado: {id} - {model.FullName}");
         }
 
-        [HttpPatch("change-password")]
-        public async Task<IActionResult> ChangePassword()
+        [HttpPatch("change-password/{id:guid}")]
+        public async Task<IActionResult> ChangePassword(Guid id, [FromBody] ChangePasswordCollaboratorRequest model)
         {
-            return Ok("Usuario con contraseña cambiada");
+            return Ok($"Usuario con contraseña cambiada: {model.CurrentPassword} - {model.NewPassword}");
         }
 
-        [HttpDelete]
-        public async Task<IActionResult> Delete()
+        [HttpDelete("{id:guid}")]
+        public async Task<IActionResult> Delete(Guid id)
         {
-            return Ok("Usuario eliminado");
+            return Ok("Usuario eliminado: {id}");
         }
     }
 }

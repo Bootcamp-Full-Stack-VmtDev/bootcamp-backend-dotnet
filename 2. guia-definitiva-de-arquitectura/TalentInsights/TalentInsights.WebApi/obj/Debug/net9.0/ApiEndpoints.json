@@ -6,7 +6,13 @@
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "TalentInsights.Application.Moldes.Request.Collaborator.CreateCollaboratorRequest",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {

@@ -1,13 +1,13 @@
+C:\Users\Developer\Downloads\Bootcamp Github\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\TalentInsights\TalentInsights.WebApi\bin\Debug\net9.0\TalentInsights.WebApi.exe
 C:\Users\Developer\Downloads\Bootcamp Github\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\TalentInsights\TalentInsights.WebApi\bin\Debug\net9.0\appsettings.Development.json
 C:\Users\Developer\Downloads\Bootcamp Github\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\TalentInsights\TalentInsights.WebApi\bin\Debug\net9.0\appsettings.json
 C:\Users\Developer\Downloads\Bootcamp Github\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\TalentInsights\TalentInsights.WebApi\bin\Debug\net9.0\TalentInsights.WebApi.staticwebassets.endpoints.json
-C:\Users\Developer\Downloads\Bootcamp Github\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\TalentInsights\TalentInsights.WebApi\bin\Debug\net9.0\TalentInsights.WebApi.exe
-C:\Users\Developer\Downloads\Bootcamp Github\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\TalentInsights\TalentInsights.WebApi\bin\Debug\net9.0\TalentInsights.WebApi.deps.json
-C:\Users\Developer\Downloads\Bootcamp Github\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\TalentInsights\TalentInsights.WebApi\bin\Debug\net9.0\TalentInsights.WebApi.runtimeconfig.json
-C:\Users\Developer\Downloads\Bootcamp Github\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\TalentInsights\TalentInsights.WebApi\bin\Debug\net9.0\TalentInsights.WebApi.dll
-C:\Users\Developer\Downloads\Bootcamp Github\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\TalentInsights\TalentInsights.WebApi\bin\Debug\net9.0\TalentInsights.WebApi.pdb
 C:\Users\Developer\Downloads\Bootcamp Github\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\TalentInsights\TalentInsights.WebApi\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
 C:\Users\Developer\Downloads\Bootcamp Github\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\TalentInsights\TalentInsights.WebApi\bin\Debug\net9.0\Microsoft.OpenApi.dll
+C:\Users\Developer\Downloads\Bootcamp Github\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\TalentInsights\TalentInsights.WebApi\bin\Debug\net9.0\TalentInsights.Application.dll
+C:\Users\Developer\Downloads\Bootcamp Github\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\TalentInsights\TalentInsights.WebApi\bin\Debug\net9.0\TalentInsights.Shared.dll
+C:\Users\Developer\Downloads\Bootcamp Github\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\TalentInsights\TalentInsights.WebApi\bin\Debug\net9.0\TalentInsights.Application.pdb
+C:\Users\Developer\Downloads\Bootcamp Github\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\TalentInsights\TalentInsights.WebApi\bin\Debug\net9.0\TalentInsights.Shared.pdb
 C:\Users\Developer\Downloads\Bootcamp Github\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\TalentInsights\TalentInsights.WebApi\obj\Debug\net9.0\TalentInsights.WebApi.csproj.AssemblyReference.cache
 C:\Users\Developer\Downloads\Bootcamp Github\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\TalentInsights\TalentInsights.WebApi\obj\Debug\net9.0\rpswa.dswa.cache.json
 C:\Users\Developer\Downloads\Bootcamp Github\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\TalentInsights\TalentInsights.WebApi\obj\Debug\net9.0\TalentInsights.WebApi.GeneratedMSBuildEditorConfig.editorconfig
@@ -31,5 +31,3 @@ C:\Users\Developer\Downloads\Bootcamp Github\bootcamp-backend-dotnet\2. guia-def
 C:\Users\Developer\Downloads\Bootcamp Github\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\TalentInsights\TalentInsights.WebApi\obj\Debug\net9.0\TalentInsights.WebApi.dll
 C:\Users\Developer\Downloads\Bootcamp Github\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\TalentInsights\TalentInsights.WebApi\obj\Debug\net9.0\refint\TalentInsights.WebApi.dll
 C:\Users\Developer\Downloads\Bootcamp Github\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\TalentInsights\TalentInsights.WebApi\obj\Debug\net9.0\TalentInsights.WebApi.pdb
-C:\Users\Developer\Downloads\Bootcamp Github\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\TalentInsights\TalentInsights.WebApi\obj\Debug\net9.0\TalentInsights.WebApi.genruntimeconfig.cache
-C:\Users\Developer\Downloads\Bootcamp Github\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\TalentInsights\TalentInsights.WebApi\obj\Debug\net9.0\ref\TalentInsights.WebApi.dll
