@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using TalentInsights.Shared.Constants;
 
-namespace TalentInsights.Application.Moldes.Request.Collaborator
+namespace TalentInsights.Application.Models.Request.Collaborator
 {
     public class ChangePasswordCollaboratorRequest
     {

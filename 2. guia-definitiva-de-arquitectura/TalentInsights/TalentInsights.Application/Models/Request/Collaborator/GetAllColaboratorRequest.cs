@@ -1,4 +1,4 @@
-﻿namespace TalentInsights.Application.Moldes.Request.Collaborator
+﻿namespace TalentInsights.Application.Models.Request.Collaborator
 {
     public class GetAllColaboratorRequest
     {

@@ -9,7 +9,7 @@
     "Parameters": [
       {
         "Name": "model",
-        "Type": "TalentInsights.Application.Moldes.Request.Collaborator.CreateCollaboratorRequest",
+        "Type": "TalentInsights.Application.Models.Request.Collaborator.CreateCollaboratorRequest",
         "IsRequired": true
       }
     ],
@@ -22,37 +22,86 @@
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "Limit",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Offset",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "GitlabProfile",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FullName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": []
   },
   {
     "ContainingType": "TalentInsights.WebApi.Controllers.CollaboratorsController",
     "Method": "Update",
-    "RelativePath": "api/Collaborators",
+    "RelativePath": "api/Collaborators/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "TalentInsights.Application.Models.Request.Collaborator.UpdateCollaboratorRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {
     "ContainingType": "TalentInsights.WebApi.Controllers.CollaboratorsController",
     "Method": "Delete",
-    "RelativePath": "api/Collaborators",
+    "RelativePath": "api/Collaborators/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {
     "ContainingType": "TalentInsights.WebApi.Controllers.CollaboratorsController",
     "Method": "ChangePassword",
-    "RelativePath": "api/Collaborators/change-password",
+    "RelativePath": "api/Collaborators/change-password/{id}",
     "HttpMethod": "PATCH",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "TalentInsights.Application.Models.Request.Collaborator.ChangePasswordCollaboratorRequest",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   }
 ]

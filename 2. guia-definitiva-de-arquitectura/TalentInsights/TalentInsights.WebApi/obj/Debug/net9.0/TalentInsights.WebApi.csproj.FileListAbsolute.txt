@@ -31,3 +31,9 @@ C:\Users\Developer\Downloads\Bootcamp Github\bootcamp-backend-dotnet\2. guia-def
 C:\Users\Developer\Downloads\Bootcamp Github\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\TalentInsights\TalentInsights.WebApi\obj\Debug\net9.0\TalentInsights.WebApi.dll
 C:\Users\Developer\Downloads\Bootcamp Github\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\TalentInsights\TalentInsights.WebApi\obj\Debug\net9.0\refint\TalentInsights.WebApi.dll
 C:\Users\Developer\Downloads\Bootcamp Github\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\TalentInsights\TalentInsights.WebApi\obj\Debug\net9.0\TalentInsights.WebApi.pdb
+C:\Users\Developer\Downloads\Bootcamp Github\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\TalentInsights\TalentInsights.WebApi\bin\Debug\net9.0\TalentInsights.WebApi.deps.json
+C:\Users\Developer\Downloads\Bootcamp Github\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\TalentInsights\TalentInsights.WebApi\bin\Debug\net9.0\TalentInsights.WebApi.runtimeconfig.json
+C:\Users\Developer\Downloads\Bootcamp Github\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\TalentInsights\TalentInsights.WebApi\bin\Debug\net9.0\TalentInsights.WebApi.dll
+C:\Users\Developer\Downloads\Bootcamp Github\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\TalentInsights\TalentInsights.WebApi\bin\Debug\net9.0\TalentInsights.WebApi.pdb
+C:\Users\Developer\Downloads\Bootcamp Github\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\TalentInsights\TalentInsights.WebApi\obj\Debug\net9.0\TalentInsights.WebApi.genruntimeconfig.cache
+C:\Users\Developer\Downloads\Bootcamp Github\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\TalentInsights\TalentInsights.WebApi\obj\Debug\net9.0\ref\TalentInsights.WebApi.dll
