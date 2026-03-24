@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using TalentInsights.Application.Moldes.Request.Collaborator;
+using TalentInsights.Application.Models.Request.Collaborator;
 
 namespace TalentInsights.WebApi.Controllers
 {

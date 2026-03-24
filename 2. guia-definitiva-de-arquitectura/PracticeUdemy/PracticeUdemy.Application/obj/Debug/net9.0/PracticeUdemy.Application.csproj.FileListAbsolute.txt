@@ -1,0 +1,12 @@
+C:\Users\Developer\Downloads\Bootcamp Github\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\PracticeUdemy\PracticeUdemy.Application\bin\Debug\net9.0\PracticeUdemy.Application.deps.json
+C:\Users\Developer\Downloads\Bootcamp Github\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\PracticeUdemy\PracticeUdemy.Application\bin\Debug\net9.0\PracticeUdemy.Application.dll
+C:\Users\Developer\Downloads\Bootcamp Github\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\PracticeUdemy\PracticeUdemy.Application\bin\Debug\net9.0\PracticeUdemy.Application.pdb
+C:\Users\Developer\Downloads\Bootcamp Github\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\PracticeUdemy\PracticeUdemy.Application\obj\Debug\net9.0\PracticeUdemy.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Developer\Downloads\Bootcamp Github\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\PracticeUdemy\PracticeUdemy.Application\obj\Debug\net9.0\PracticeUdemy.Application.AssemblyInfoInputs.cache
+C:\Users\Developer\Downloads\Bootcamp Github\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\PracticeUdemy\PracticeUdemy.Application\obj\Debug\net9.0\PracticeUdemy.Application.AssemblyInfo.cs
+C:\Users\Developer\Downloads\Bootcamp Github\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\PracticeUdemy\PracticeUdemy.Application\obj\Debug\net9.0\PracticeUdemy.Application.csproj.CoreCompileInputs.cache
+C:\Users\Developer\Downloads\Bootcamp Github\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\PracticeUdemy\PracticeUdemy.Application\obj\Debug\net9.0\PracticeUdemy.Application.sourcelink.json
+C:\Users\Developer\Downloads\Bootcamp Github\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\PracticeUdemy\PracticeUdemy.Application\obj\Debug\net9.0\PracticeUdemy.Application.dll
+C:\Users\Developer\Downloads\Bootcamp Github\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\PracticeUdemy\PracticeUdemy.Application\obj\Debug\net9.0\refint\PracticeUdemy.Application.dll
+C:\Users\Developer\Downloads\Bootcamp Github\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\PracticeUdemy\PracticeUdemy.Application\obj\Debug\net9.0\PracticeUdemy.Application.pdb
+C:\Users\Developer\Downloads\Bootcamp Github\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\PracticeUdemy\PracticeUdemy.Application\obj\Debug\net9.0\ref\PracticeUdemy.Application.dll

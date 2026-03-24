@@ -1,0 +1,6 @@
+@PracticeUdemy.WebApi_HostAddress = http://localhost:5208
+
+GET {{PracticeUdemy.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

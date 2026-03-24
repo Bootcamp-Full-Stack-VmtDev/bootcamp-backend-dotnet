@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="PracticeUdemy.Application/PracticeUdemy.Application.csproj" Id="9106d74f-7c3c-465b-987c-f62884a68825" />
+  <Project Path="PracticeUdemy.WebApi/PracticeUdemy.WebApi.csproj" />
+</Solution>

@@ -1,0 +1,48 @@
+[
+  {
+    "ContainingType": "PracticeUdemy.WebApi.Controllers.InstructorsController",
+    "Method": "create",
+    "RelativePath": "api/Instructors",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "PracticeUdemy.Application.Models.Request.Instructor.CreateInstructorRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PracticeUdemy.WebApi.Controllers.InstructorsController",
+    "Method": "GetAll",
+    "RelativePath": "api/Instructors",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PracticeUdemy.WebApi.Controllers.InstructorsController",
+    "Method": "update",
+    "RelativePath": "api/Instructors",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PracticeUdemy.WebApi.Controllers.InstructorsController",
+    "Method": "delete",
+    "RelativePath": "api/Instructors",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
