@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PracticeUdemy.WebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ed89038978dfdca1c5773d9a5196d9eece4cbd9c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+76cd28b9dc04b1df29407c48fc827812e882efcf")]
 [assembly: System.Reflection.AssemblyProductAttribute("PracticeUdemy.WebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PracticeUdemy.WebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -25,10 +25,10 @@ namespace PracticeUdemy.WebApi.Controllers
             return Ok($"Instructor {model.Name} con id: {id} actualizado!");
         }
 
-        [HttpDelete]
-        public async Task<IActionResult> Delete()
+        [HttpDelete("{id:guid}")]
+        public async Task<IActionResult> Delete(Guid id)
         {
-            return Ok("Instructor eliminado");
+            return Ok($"Instructor con {id} eliminado!");
         }
     }
 }

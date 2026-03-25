@@ -27,16 +27,6 @@
   },
   {
     "ContainingType": "PracticeUdemy.WebApi.Controllers.InstructorsController",
-    "Method": "Delete",
-    "RelativePath": "api/Instructors",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "PracticeUdemy.WebApi.Controllers.InstructorsController",
     "Method": "Update",
     "RelativePath": "api/Instructors/{id}",
     "HttpMethod": "PUT",
@@ -48,6 +38,22 @@
         "Type": "PracticeUdemy.Application.Models.Request.Instructor.UpdateInstructorRequest",
         "IsRequired": true
       },
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PracticeUdemy.WebApi.Controllers.InstructorsController",
+    "Method": "Delete",
+    "RelativePath": "api/Instructors/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
       {
         "Name": "id",
         "Type": "System.Guid",
