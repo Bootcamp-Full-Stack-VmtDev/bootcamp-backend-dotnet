@@ -14,9 +14,9 @@ namespace PracticeUdemy.WebApi.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetAll()
+        public async Task<IActionResult> GetAllInstructor([FromQuery] GetAllInstructorRequest model)
         {
-            return Ok("Todos los instructores");
+            return Ok($"Todos los usuarios: limit: {model.Limit}, offset: {model.Offset}");
         }
 
         [HttpPut("{id:guid}")]
