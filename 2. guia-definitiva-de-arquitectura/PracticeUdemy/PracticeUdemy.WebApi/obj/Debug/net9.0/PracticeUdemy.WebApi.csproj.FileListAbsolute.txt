@@ -35,3 +35,40 @@ C:\Users\Developer\Downloads\Bootcamp Github\bootcamp-backend-dotnet\2. guia-def
 C:\Users\Developer\Downloads\Bootcamp Github\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\PracticeUdemy\PracticeUdemy.WebApi\obj\Debug\net9.0\ref\PracticeUdemy.WebApi.dll
 C:\Users\Developer\Downloads\Bootcamp Github\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\PracticeUdemy\PracticeUdemy.WebApi\bin\Debug\net9.0\PracticeUdemy.Application.dll
 C:\Users\Developer\Downloads\Bootcamp Github\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\PracticeUdemy\PracticeUdemy.WebApi\bin\Debug\net9.0\PracticeUdemy.Application.pdb
+C:\Users\Usuario\Downloads\Bootcamp Full Stack - VmtDev\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\PracticeUdemy\PracticeUdemy.WebApi\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\Usuario\Downloads\Bootcamp Full Stack - VmtDev\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\PracticeUdemy\PracticeUdemy.WebApi\bin\Debug\net9.0\appsettings.json
+C:\Users\Usuario\Downloads\Bootcamp Full Stack - VmtDev\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\PracticeUdemy\PracticeUdemy.WebApi\bin\Debug\net9.0\PracticeUdemy.WebApi.staticwebassets.endpoints.json
+C:\Users\Usuario\Downloads\Bootcamp Full Stack - VmtDev\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\PracticeUdemy\PracticeUdemy.WebApi\bin\Debug\net9.0\PracticeUdemy.WebApi.exe
+C:\Users\Usuario\Downloads\Bootcamp Full Stack - VmtDev\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\PracticeUdemy\PracticeUdemy.WebApi\bin\Debug\net9.0\PracticeUdemy.WebApi.deps.json
+C:\Users\Usuario\Downloads\Bootcamp Full Stack - VmtDev\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\PracticeUdemy\PracticeUdemy.WebApi\bin\Debug\net9.0\PracticeUdemy.WebApi.runtimeconfig.json
+C:\Users\Usuario\Downloads\Bootcamp Full Stack - VmtDev\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\PracticeUdemy\PracticeUdemy.WebApi\bin\Debug\net9.0\PracticeUdemy.WebApi.dll
+C:\Users\Usuario\Downloads\Bootcamp Full Stack - VmtDev\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\PracticeUdemy\PracticeUdemy.WebApi\bin\Debug\net9.0\PracticeUdemy.WebApi.pdb
+C:\Users\Usuario\Downloads\Bootcamp Full Stack - VmtDev\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\PracticeUdemy\PracticeUdemy.WebApi\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Usuario\Downloads\Bootcamp Full Stack - VmtDev\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\PracticeUdemy\PracticeUdemy.WebApi\bin\Debug\net9.0\Microsoft.OpenApi.dll
+C:\Users\Usuario\Downloads\Bootcamp Full Stack - VmtDev\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\PracticeUdemy\PracticeUdemy.WebApi\bin\Debug\net9.0\PracticeUdemy.Application.dll
+C:\Users\Usuario\Downloads\Bootcamp Full Stack - VmtDev\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\PracticeUdemy\PracticeUdemy.WebApi\bin\Debug\net9.0\PracticeUdemy.Application.pdb
+C:\Users\Usuario\Downloads\Bootcamp Full Stack - VmtDev\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\PracticeUdemy\PracticeUdemy.WebApi\obj\Debug\net9.0\PracticeUdemy.WebApi.csproj.AssemblyReference.cache
+C:\Users\Usuario\Downloads\Bootcamp Full Stack - VmtDev\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\PracticeUdemy\PracticeUdemy.WebApi\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\Usuario\Downloads\Bootcamp Full Stack - VmtDev\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\PracticeUdemy\PracticeUdemy.WebApi\obj\Debug\net9.0\PracticeUdemy.WebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Downloads\Bootcamp Full Stack - VmtDev\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\PracticeUdemy\PracticeUdemy.WebApi\obj\Debug\net9.0\PracticeUdemy.WebApi.AssemblyInfoInputs.cache
+C:\Users\Usuario\Downloads\Bootcamp Full Stack - VmtDev\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\PracticeUdemy\PracticeUdemy.WebApi\obj\Debug\net9.0\PracticeUdemy.WebApi.AssemblyInfo.cs
+C:\Users\Usuario\Downloads\Bootcamp Full Stack - VmtDev\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\PracticeUdemy\PracticeUdemy.WebApi\obj\Debug\net9.0\PracticeUdemy.WebApi.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Downloads\Bootcamp Full Stack - VmtDev\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\PracticeUdemy\PracticeUdemy.WebApi\obj\Debug\net9.0\PracticeUdemy.WebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Usuario\Downloads\Bootcamp Full Stack - VmtDev\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\PracticeUdemy\PracticeUdemy.WebApi\obj\Debug\net9.0\PracticeUdemy.WebApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Usuario\Downloads\Bootcamp Full Stack - VmtDev\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\PracticeUdemy\PracticeUdemy.WebApi\obj\Debug\net9.0\PracticeUdemy.WebApi.sourcelink.json
+C:\Users\Usuario\Downloads\Bootcamp Full Stack - VmtDev\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\PracticeUdemy\PracticeUdemy.WebApi\obj\Debug\net9.0\rjimswa.dswa.cache.json
+C:\Users\Usuario\Downloads\Bootcamp Full Stack - VmtDev\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\PracticeUdemy\PracticeUdemy.WebApi\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+C:\Users\Usuario\Downloads\Bootcamp Full Stack - VmtDev\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\PracticeUdemy\PracticeUdemy.WebApi\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+C:\Users\Usuario\Downloads\Bootcamp Full Stack - VmtDev\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\PracticeUdemy\PracticeUdemy.WebApi\obj\Debug\net9.0\scopedcss\bundle\PracticeUdemy.WebApi.styles.css
+C:\Users\Usuario\Downloads\Bootcamp Full Stack - VmtDev\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\PracticeUdemy\PracticeUdemy.WebApi\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Usuario\Downloads\Bootcamp Full Stack - VmtDev\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\PracticeUdemy\PracticeUdemy.WebApi\obj\Debug\net9.0\staticwebassets.build.json.cache
+C:\Users\Usuario\Downloads\Bootcamp Full Stack - VmtDev\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\PracticeUdemy\PracticeUdemy.WebApi\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\Usuario\Downloads\Bootcamp Full Stack - VmtDev\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\PracticeUdemy\PracticeUdemy.WebApi\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\Usuario\Downloads\Bootcamp Full Stack - VmtDev\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\PracticeUdemy\PracticeUdemy.WebApi\obj\Debug\net9.0\swae.build.ex.cache
+C:\Users\Usuario\Downloads\Bootcamp Full Stack - VmtDev\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\PracticeUdemy\PracticeUdemy.WebApi\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\Usuario\Downloads\Bootcamp Full Stack - VmtDev\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\PracticeUdemy\PracticeUdemy.WebApi\obj\Debug\net9.0\Practice.EB42204B.Up2Date
+C:\Users\Usuario\Downloads\Bootcamp Full Stack - VmtDev\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\PracticeUdemy\PracticeUdemy.WebApi\obj\Debug\net9.0\PracticeUdemy.WebApi.dll
+C:\Users\Usuario\Downloads\Bootcamp Full Stack - VmtDev\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\PracticeUdemy\PracticeUdemy.WebApi\obj\Debug\net9.0\refint\PracticeUdemy.WebApi.dll
+C:\Users\Usuario\Downloads\Bootcamp Full Stack - VmtDev\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\PracticeUdemy\PracticeUdemy.WebApi\obj\Debug\net9.0\PracticeUdemy.WebApi.pdb
+C:\Users\Usuario\Downloads\Bootcamp Full Stack - VmtDev\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\PracticeUdemy\PracticeUdemy.WebApi\obj\Debug\net9.0\PracticeUdemy.WebApi.genruntimeconfig.cache
+C:\Users\Usuario\Downloads\Bootcamp Full Stack - VmtDev\bootcamp-backend-dotnet\2. guia-definitiva-de-arquitectura\PracticeUdemy\PracticeUdemy.WebApi\obj\Debug\net9.0\ref\PracticeUdemy.WebApi.dll

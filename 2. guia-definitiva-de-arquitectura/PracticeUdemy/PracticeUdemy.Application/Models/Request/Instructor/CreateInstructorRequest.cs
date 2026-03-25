@@ -5,9 +5,10 @@ namespace PracticeUdemy.Application.Models.Request.Instructor
     public class CreateInstructorRequest
     {
         [Required]
-        public string name { get; set; }
+        public string Name { get; set; }
 
         [Required]
-        public string email { get; set; }
+        public string Email { get; set; }
+
     }
 }

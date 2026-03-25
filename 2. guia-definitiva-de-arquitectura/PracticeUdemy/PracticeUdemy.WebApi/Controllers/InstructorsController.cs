@@ -8,9 +8,9 @@ namespace PracticeUdemy.WebApi.Controllers
     public class InstructorsController : ControllerBase
     {
         [HttpPost]
-        public async Task<IActionResult> create([FromBody] CreateInstructorRequest model)
+        public async Task<IActionResult> Create([FromBody] CreateInstructorRequest model)
         {
-            return Ok($"Instructor {model.name} creado");
+            return Ok($"Instructor {model.Name} con email {model.Email} creado!");
         }
 
         [HttpGet]
@@ -19,14 +19,14 @@ namespace PracticeUdemy.WebApi.Controllers
             return Ok("Todos los instructores");
         }
 
-        [HttpPut]
-        public async Task<IActionResult> update()
+        [HttpPut("{id:guid}")]
+        public async Task<IActionResult> Update([FromBody] UpdateInstructorRequest model, Guid id)
         {
-            return Ok("Instructor creado");
+            return Ok($"Instructor {model.Name} con id: {id} actualizado!");
         }
 
         [HttpDelete]
-        public async Task<IActionResult> delete()
+        public async Task<IActionResult> Delete()
         {
             return Ok("Instructor eliminado");
         }
