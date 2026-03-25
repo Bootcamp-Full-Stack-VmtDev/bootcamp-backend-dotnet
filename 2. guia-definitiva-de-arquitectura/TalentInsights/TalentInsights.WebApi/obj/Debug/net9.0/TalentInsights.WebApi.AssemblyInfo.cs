@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TalentInsights.WebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+af61f4bd0db2202912a813cafc3a86481afecfc8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+15a46728f284480b0546f3ee4f03397a71fa28fb")]
 [assembly: System.Reflection.AssemblyProductAttribute("TalentInsights.WebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TalentInsights.WebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

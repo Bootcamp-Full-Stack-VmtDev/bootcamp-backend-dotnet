@@ -10,7 +10,7 @@ namespace TalentInsights.WebApi.Controllers
         [HttpPost]
         public async Task<IActionResult> Create([FromBody] CreateCollaboratorRequest model)
         {
-            return Ok($"Usuario: {model.FullName} creado!");
+            return Ok($"Usuario {model.FullName}, con Posicion {model.Position} creado!");
         }
 
         /*
@@ -29,19 +29,19 @@ namespace TalentInsights.WebApi.Controllers
         [HttpPut("{id:guid}")]
         public async Task<IActionResult> Update([FromBody] UpdateCollaboratorRequest model, Guid id)
         {
-            return Ok($"Usuario actualizado: {id} - {model.FullName}");
+            return Ok($"Usuario {model.FullName} con id: {id} actualizado!");
         }
 
         [HttpPatch("change-password/{id:guid}")]
         public async Task<IActionResult> ChangePassword(Guid id, [FromBody] ChangePasswordCollaboratorRequest model)
         {
-            return Ok($"Usuario con contraseña cambiada: {model.CurrentPassword} - {model.NewPassword}");
+            return Ok($"Usuario con id: {id} ha cambiado su contraseña de {model.CurrentPassword} a {model.NewPassword}");
         }
 
         [HttpDelete("{id:guid}")]
         public async Task<IActionResult> Delete(Guid id)
         {
-            return Ok("Usuario eliminado: {id}");
+            return Ok($"Usuario con id: {id} eliminado!");
         }
     }
 }
