@@ -14,5 +14,12 @@ namespace LaboratorioUdemy.WebApi.Controllers
             var response = instructorService.Create(model);
             return Ok(response);
         }
+
+        [HttpGet("{id:guid}")]
+        public async Task<IActionResult> GetById(Guid id)
+        {
+            var response = instructorService.Get(id);
+            return Ok(response);
+        }
     }
 }
