@@ -22,7 +22,7 @@ namespace LaboratorioUdemy.Application.Services
 
             cache.Add(instructor.InstructorId.ToString(), instructor);
 
-            return ResponseHelper.Create(instructor);
+            return ResponseHelper.Create(instructor, "Instructor creado con exito!");
         }
 
         public GenericResponse<InstructorDto?> Get(Guid instructorId)
@@ -36,5 +36,23 @@ namespace LaboratorioUdemy.Application.Services
             var instructores = cache.Get();
             return ResponseHelper.Create(instructores);
         }
+
+        public GenericResponse<bool> Delete(Guid instructorId)
+        {
+            var siExiste = cache.Get(instructorId.ToString());
+            if (siExiste is null)
+            {
+                return ResponseHelper.Create(false);
+            }
+
+            cache.Delete(instructorId.ToString());
+            return ResponseHelper.Create(true);
+        }
+
+
+        /*public GenericResponse<InstructorDto> Update(Guid instructorId, UpdateInstructorRequest model)
+        {
+            throw new NotImplementedException();
+        }*/
     }
 }

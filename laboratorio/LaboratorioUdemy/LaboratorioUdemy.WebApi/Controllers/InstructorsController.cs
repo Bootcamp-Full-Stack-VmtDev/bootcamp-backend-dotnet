@@ -28,5 +28,18 @@ namespace LaboratorioUdemy.WebApi.Controllers
         {
             return Ok(ResponseHelper.Create(instructorService.Get(model.Limit ?? 0, model.Offset ?? 0)));
         }
+
+        [HttpDelete("{id:guid}")]
+        public async Task<IActionResult> Delete(Guid id)
+        {
+            return Ok($"Usuario eliminado: {id}");
+        }
+
+        /*[HttpPut("{id:guid}")]
+        public async Task<IActionResult> Update([FromBody] UpdateInstructorRequest model, Guid id)
+        {
+            var response = instructorService.Get(id);
+            return Ok(response);
+        }*/
     }
 }
