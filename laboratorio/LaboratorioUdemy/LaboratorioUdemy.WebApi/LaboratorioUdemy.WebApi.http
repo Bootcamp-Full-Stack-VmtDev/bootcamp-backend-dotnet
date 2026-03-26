@@ -1,0 +1,6 @@
+@LaboratorioUdemy.WebApi_HostAddress = http://localhost:5278
+
+GET {{LaboratorioUdemy.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
