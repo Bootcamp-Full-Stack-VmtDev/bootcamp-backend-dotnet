@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace LaboratorioUdemy.Application.Models.DTOs
+﻿namespace LaboratorioUdemy.Application.Models.DTOs
 {
-    internal class InstructorDto
+    public class InstructorDto
     {
+        public Guid InstructorId { get; set; }
+        public string Name { get; set; }
+        public string Email { get; set; }
+        public DateTime RegisterDate { get; set; }
     }
 }
