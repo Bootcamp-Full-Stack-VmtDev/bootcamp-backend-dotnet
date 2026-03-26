@@ -49,10 +49,9 @@ namespace LaboratorioUdemy.Application.Services
             return ResponseHelper.Create(true);
         }
 
-
-        /*public GenericResponse<InstructorDto> Update(Guid instructorId, UpdateInstructorRequest model)
+        public GenericResponse<InstructorDto> Update(Guid instructorId, UpdateInstructorRequest model)
         {
             throw new NotImplementedException();
-        }*/
+        }
     }
 }

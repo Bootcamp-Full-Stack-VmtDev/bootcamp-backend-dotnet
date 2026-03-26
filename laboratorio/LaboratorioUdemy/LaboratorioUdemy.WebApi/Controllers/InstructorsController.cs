@@ -35,11 +35,10 @@ namespace LaboratorioUdemy.WebApi.Controllers
             return Ok($"Usuario eliminado: {id}");
         }
 
-        /*[HttpPut("{id:guid}")]
+        [HttpPut("{id:guid}")]
         public async Task<IActionResult> Update([FromBody] UpdateInstructorRequest model, Guid id)
         {
-            var response = instructorService.Get(id);
-            return Ok(response);
-        }*/
+            return Ok($"Instructor actualizado: {id} - {model.Name}");
+        }
     }
 }
