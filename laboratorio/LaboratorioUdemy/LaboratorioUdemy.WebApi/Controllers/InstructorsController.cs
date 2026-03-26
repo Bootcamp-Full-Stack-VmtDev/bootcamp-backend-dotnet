@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using LaboratorioUdemy.Application.Models.Requests.Instructor;
+using Microsoft.AspNetCore.Mvc;
 
 namespace LaboratorioUdemy.WebApi.Controllers
 {
@@ -7,9 +8,9 @@ namespace LaboratorioUdemy.WebApi.Controllers
     public class InstructorsController : ControllerBase
     {
         [HttpPost]
-        public async Task<IActionResult> Create()
+        public async Task<IActionResult> Create([FromBody] CreateInstructorRequest model)
         {
-            return Ok("Colaborador creado correctamente!");
+            return Ok($"Instructor {model.Name} con email {model.Email} creado correctamente!");
         }
     }
 }
