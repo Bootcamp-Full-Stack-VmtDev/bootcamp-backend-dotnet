@@ -1,3 +1,8 @@
+using LaboratorioUdemy.Application.Interfaces.Services;
+using LaboratorioUdemy.Application.Models.DTOs;
+using LaboratorioUdemy.Application.Services;
+using LaboratorioUdemy.Shared;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -5,6 +10,10 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
+
+// Service
+builder.Services.AddScoped<IInstructorService, InstructorService>();
+builder.Services.AddSingleton<Cache<InstructorDto>>();
 
 var app = builder.Build();
 
