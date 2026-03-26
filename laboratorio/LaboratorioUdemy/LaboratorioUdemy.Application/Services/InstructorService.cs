@@ -1,4 +1,5 @@
-﻿using LaboratorioUdemy.Application.Interfaces.Services;
+﻿using LaboratorioUdemy.Application.Helpers;
+using LaboratorioUdemy.Application.Interfaces.Services;
 using LaboratorioUdemy.Application.Models.DTOs;
 using LaboratorioUdemy.Application.Models.Requests.Instructor;
 using LaboratorioUdemy.Application.Models.Responses;
@@ -18,6 +19,10 @@ namespace LaboratorioUdemy.Application.Services
                 Email = model.Email,
                 RegisterDate = DateTimeHelper.UtcNow()
             };
+
+            cache.Add(instructor.InstructorId.ToString(), instructor);
+
+            return ResponseHelper.Create(instructor);
         }
     }
 }
