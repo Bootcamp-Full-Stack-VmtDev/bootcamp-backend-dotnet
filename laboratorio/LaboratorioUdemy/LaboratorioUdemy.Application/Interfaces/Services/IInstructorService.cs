@@ -8,5 +8,6 @@ namespace LaboratorioUdemy.Application.Interfaces.Services
     {
         public GenericResponse<InstructorDto> Create(CreateInstructorRequest model);
         public GenericResponse<InstructorDto?> Get(Guid instructorId);
+        public GenericResponse<List<InstructorDto>> Get(int limit, int offset);
     }
 }

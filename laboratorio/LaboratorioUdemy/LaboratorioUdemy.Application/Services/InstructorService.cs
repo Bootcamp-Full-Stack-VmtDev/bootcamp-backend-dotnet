@@ -30,5 +30,11 @@ namespace LaboratorioUdemy.Application.Services
             var instructor = cache.Get(instructorId.ToString());
             return ResponseHelper.Create(instructor);
         }
+
+        public GenericResponse<List<InstructorDto>> Get(int limit, int offset)
+        {
+            var instructores = cache.Get();
+            return ResponseHelper.Create(instructores);
+        }
     }
 }

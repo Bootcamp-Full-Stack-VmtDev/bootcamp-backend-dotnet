@@ -1,4 +1,5 @@
-﻿using LaboratorioUdemy.Application.Interfaces.Services;
+﻿using LaboratorioUdemy.Application.Helpers;
+using LaboratorioUdemy.Application.Interfaces.Services;
 using LaboratorioUdemy.Application.Models.Requests.Instructor;
 using Microsoft.AspNetCore.Mvc;
 
@@ -20,6 +21,12 @@ namespace LaboratorioUdemy.WebApi.Controllers
         {
             var response = instructorService.Get(id);
             return Ok(response);
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> GetAll([FromQuery] GetAllInstructorRequest model)
+        {
+            return Ok(ResponseHelper.Create(instructorService.Get(model.Limit ?? 0, model.Offset ?? 0)));
         }
     }
 }
