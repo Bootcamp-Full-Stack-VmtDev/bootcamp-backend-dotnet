@@ -14,5 +14,19 @@ namespace LaboratorioUdemy.Application.Helpers
 
             return response;
         }
+
+        public static PagedResponse<T> CreatePaged<T>(List<T> data, int total, int limit, int offset, string message = "Solicitud realizada correctamente")
+        {
+            var response = new PagedResponse<T>
+            {
+                Data = data,
+                Total = total,
+                Limit = limit,
+                Offset = offset,
+                Message = message
+            };
+
+            return response;
+        }
     }
 }

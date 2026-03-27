@@ -31,10 +31,16 @@ namespace LaboratorioUdemy.Application.Services
             return ResponseHelper.Create(instructor);
         }
 
-        public GenericResponse<List<InstructorDto>> Get(int limit, int offset)
+        public PagedResponse<InstructorDto> Get(int limit, int offset)
         {
             var instructores = cache.Get();
-            return ResponseHelper.Create(instructores);
+            var total = instructores.Count;
+            var data = instructores
+                .Skip(offset)
+                .Take(limit == 0 ? total : limit)
+                .ToList();
+
+            return ResponseHelper.CreatePaged(data, total, limit, offset);
         }
 
         public GenericResponse<bool> Delete(Guid instructorId)
