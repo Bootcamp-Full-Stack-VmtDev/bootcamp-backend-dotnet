@@ -57,7 +57,19 @@ namespace LaboratorioUdemy.Application.Services
 
         public GenericResponse<InstructorDto> Update(Guid instructorId, UpdateInstructorRequest model)
         {
-            throw new NotImplementedException();
+            var instructor = cache.Get(instructorId.ToString());
+            if (instructor is null)
+            {
+                return ResponseHelper.Create<InstructorDto>(null, "Instructor no encontrado");
+            }
+
+            if (!string.IsNullOrWhiteSpace(model.Name))
+                instructor.Name = model.Name;
+
+            if (!string.IsNullOrWhiteSpace(model.Email))
+                instructor.Email = model.Email;
+
+            return ResponseHelper.Create<InstructorDto>(null, "Instructor actualizado correctamente");
         }
     }
 }

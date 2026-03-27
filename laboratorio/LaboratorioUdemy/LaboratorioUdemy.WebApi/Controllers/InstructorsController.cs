@@ -38,7 +38,8 @@ namespace LaboratorioUdemy.WebApi.Controllers
         [HttpPut("{id:guid}")]
         public async Task<IActionResult> Update([FromBody] UpdateInstructorRequest model, Guid id)
         {
-            return Ok($"Instructor actualizado: {id} - {model.Name}");
+            var response = instructorService.Update(id, model);
+            return Ok(response);
         }
     }
 }
