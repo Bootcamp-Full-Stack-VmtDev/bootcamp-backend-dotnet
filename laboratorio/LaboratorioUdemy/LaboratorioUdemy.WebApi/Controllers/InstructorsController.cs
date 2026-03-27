@@ -32,7 +32,8 @@ namespace LaboratorioUdemy.WebApi.Controllers
         [HttpDelete("{id:guid}")]
         public async Task<IActionResult> Delete(Guid id)
         {
-            return Ok($"Usuario eliminado: {id}");
+            var response = instructorService.Delete(id);
+            return Ok(response);
         }
 
         [HttpPut("{id:guid}")]

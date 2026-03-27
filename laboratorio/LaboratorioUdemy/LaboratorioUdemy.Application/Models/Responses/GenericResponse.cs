@@ -1,5 +1,4 @@
 ﻿using LaboratorioUdemy.Shared.Helpers;
-using System.Text.Json.Serialization;
 
 namespace LaboratorioUdemy.Application.Models.Responses
 {
@@ -7,8 +6,6 @@ namespace LaboratorioUdemy.Application.Models.Responses
     {
         public string Message { get; set; }
         public DateTime TimeStamp { get; set; } = DateTimeHelper.UtcNow();
-
-        [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
         public T Data { get; set; }
     }
 

@@ -48,11 +48,11 @@ namespace LaboratorioUdemy.Application.Services
             var siExiste = cache.Get(instructorId.ToString());
             if (siExiste is null)
             {
-                return ResponseHelper.Create(false);
+                return ResponseHelper.Create(false, "Instructor no encontrado");
             }
 
             cache.Delete(instructorId.ToString());
-            return ResponseHelper.Create(true);
+            return ResponseHelper.Create(true, "Instructor eliminado correctamente");
         }
 
         public GenericResponse<InstructorDto> Update(Guid instructorId, UpdateInstructorRequest model)
@@ -69,7 +69,7 @@ namespace LaboratorioUdemy.Application.Services
             if (!string.IsNullOrWhiteSpace(model.Email))
                 instructor.Email = model.Email;
 
-            return ResponseHelper.Create<InstructorDto>(null, "Instructor actualizado correctamente");
+            return ResponseHelper.Create(instructor, "Instructor actualizado correctamente");
         }
     }
 }
