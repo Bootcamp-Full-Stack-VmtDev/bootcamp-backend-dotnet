@@ -11,6 +11,6 @@ namespace LaboratorioUdemy.Application.Interfaces.Services
         public PagedResponse<InstructorDto> Get(int limit, int offset);
         public GenericResponse<bool> Delete(Guid instructorId);
 
-        public GenericResponse<InstructorDto> Update(Guid instructorId, UpdateInstructorRequest model);
+        public GenericResponse<InstructorDto?> Update(Guid instructorId, UpdateInstructorRequest model);
     }
 }

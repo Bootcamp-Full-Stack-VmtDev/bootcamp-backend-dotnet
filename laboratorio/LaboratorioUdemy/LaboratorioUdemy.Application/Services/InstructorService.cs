@@ -28,7 +28,10 @@ namespace LaboratorioUdemy.Application.Services
         public GenericResponse<InstructorDto?> Get(Guid instructorId)
         {
             var instructor = cache.Get(instructorId.ToString());
-            return ResponseHelper.Create(instructor);
+            var message = instructor == null
+                ? "Instructor no encontrado"
+                : "Instructor obtenido correctamente";
+            return ResponseHelper.Create(instructor, message);
         }
 
         public PagedResponse<InstructorDto> Get(int limit, int offset)
@@ -39,14 +42,16 @@ namespace LaboratorioUdemy.Application.Services
                 .Skip(offset)
                 .Take(limit == 0 ? total : limit)
                 .ToList();
-
-            return ResponseHelper.CreatePaged(data, total, limit, offset);
+            var message = data.Count == 0
+                ? "No hay instructores para listar"
+                : "Instructores obtenidos correctamente";
+            return ResponseHelper.CreatePaged(data, total, limit, offset, message);
         }
 
         public GenericResponse<bool> Delete(Guid instructorId)
         {
-            var siExiste = cache.Get(instructorId.ToString());
-            if (siExiste is null)
+            var instructor = cache.Get(instructorId.ToString());
+            if (instructor is null)
             {
                 return ResponseHelper.Create(false, "Instructor no encontrado");
             }
@@ -55,21 +60,23 @@ namespace LaboratorioUdemy.Application.Services
             return ResponseHelper.Create(true, "Instructor eliminado correctamente");
         }
 
-        public GenericResponse<InstructorDto> Update(Guid instructorId, UpdateInstructorRequest model)
+        public GenericResponse<InstructorDto?> Update(Guid instructorId, UpdateInstructorRequest model)
         {
             var instructor = cache.Get(instructorId.ToString());
-            if (instructor is null)
+            var message = instructor == null
+                ? "Instructor no encontrado"
+                : "Instructor actualizado correctamente";
+
+            if (instructor is not null)
             {
-                return ResponseHelper.Create<InstructorDto>(null, "Instructor no encontrado");
+                if (!string.IsNullOrWhiteSpace(model.Name))
+                    instructor.Name = model.Name;
+
+                if (!string.IsNullOrWhiteSpace(model.Email))
+                    instructor.Email = model.Email;
             }
 
-            if (!string.IsNullOrWhiteSpace(model.Name))
-                instructor.Name = model.Name;
-
-            if (!string.IsNullOrWhiteSpace(model.Email))
-                instructor.Email = model.Email;
-
-            return ResponseHelper.Create(instructor, "Instructor actualizado correctamente");
+            return ResponseHelper.Create(instructor, message);
         }
     }
 }

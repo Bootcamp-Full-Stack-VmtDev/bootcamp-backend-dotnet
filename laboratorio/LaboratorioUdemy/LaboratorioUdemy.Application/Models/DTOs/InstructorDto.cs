@@ -3,8 +3,8 @@
     public class InstructorDto
     {
         public Guid InstructorId { get; set; }
-        public string Name { get; set; }
-        public string Email { get; set; }
+        public string Name { get; set; } = null!;
+        public string Email { get; set; } = null!;
         public DateTime RegisterDate { get; set; }
     }
 }
