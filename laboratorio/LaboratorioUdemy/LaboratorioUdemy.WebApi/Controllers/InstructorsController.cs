@@ -11,14 +11,26 @@ namespace LaboratorioUdemy.WebApi.Controllers
         [HttpPost]
         public async Task<IActionResult> Create([FromBody] CreateInstructorRequest model)
         {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
             var response = instructorService.Create(model);
-            return Ok(response);
+
+            return CreatedAtAction(
+                nameof(GetById),
+                new { id = response.Data!.InstructorId },
+                response
+            );
         }
 
         [HttpGet("{id:guid}")]
         public async Task<IActionResult> GetById(Guid id)
         {
             var response = instructorService.Get(id);
+
+            if (response.Data is null)
+                return NotFound(response);
+
             return Ok(response);
         }
 
@@ -33,6 +45,10 @@ namespace LaboratorioUdemy.WebApi.Controllers
         public async Task<IActionResult> Delete(Guid id)
         {
             var response = instructorService.Delete(id);
+
+            if (!response.Data)
+                return NotFound(response);
+
             return Ok(response);
         }
 
@@ -40,6 +56,10 @@ namespace LaboratorioUdemy.WebApi.Controllers
         public async Task<IActionResult> Update([FromBody] UpdateInstructorRequest model, Guid id)
         {
             var response = instructorService.Update(id, model);
+
+            if (response.Data is null)
+                return NotFound(response);
+
             return Ok(response);
         }
     }
