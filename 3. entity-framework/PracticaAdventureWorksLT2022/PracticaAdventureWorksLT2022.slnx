@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="PracticaAdventureWorks.Domain/PracticaAdventureWorks.Domain.csproj" />
+  <Project Path="PracticaAdventureWorks.WebApi/PracticaAdventureWorks.WebApi.csproj" />
+</Solution>
