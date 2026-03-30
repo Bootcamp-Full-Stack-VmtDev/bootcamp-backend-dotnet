@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace LaboratorioUdemy.Domain;
+namespace LaboratorioUdemy.Domain.Database.SqlServer.Entities;
 
 public partial class Curso
 {

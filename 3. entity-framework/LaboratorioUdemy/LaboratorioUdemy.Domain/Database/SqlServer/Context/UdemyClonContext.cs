@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using LaboratorioUdemy.Domain.Database.SqlServer.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace LaboratorioUdemy.Domain;
+namespace LaboratorioUdemy.Domain.Database.SqlServer.Context;
 
 public partial class UdemyClonContext : DbContext
 {
