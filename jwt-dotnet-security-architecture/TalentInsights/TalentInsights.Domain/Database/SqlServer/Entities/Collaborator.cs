@@ -1,11 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace TalentInsights.Domain.Database.SqlServer.Entities;
+﻿namespace TalentInsights.Domain.Database.SqlServer.Entities;
 
 public partial class Collaborator
 {
     public Guid Id { get; set; }
+
+    public string Email { get; set; } = null!;
 
     public string FullName { get; set; } = null!;
 
@@ -13,21 +12,23 @@ public partial class Collaborator
 
     public string Position { get; set; } = null!;
 
+    public string Password { get; set; } = null!;
+
     public DateTime JoinedAt { get; set; }
 
     public bool IsActive { get; set; }
 
     public DateTime CreatedAt { get; set; }
 
-    public DateTime UpdatedAt { get; set; }
-
     public DateTime? DeletedAt { get; set; }
+
+    public DateTime UpdatedAt { get; set; }
 
     public virtual ICollection<CollaboratorHistory> CollaboratorHistories { get; set; } = new List<CollaboratorHistory>();
 
-    public virtual ICollection<CollaboratorPermission> CollaboratorPermissionAssignedByNavigations { get; set; } = new List<CollaboratorPermission>();
+    public virtual ICollection<CollaboratorRole> CollaboratorRoleAssignedByNavigations { get; set; } = new List<CollaboratorRole>();
 
-    public virtual ICollection<CollaboratorPermission> CollaboratorPermissionCollaborators { get; set; } = new List<CollaboratorPermission>();
+    public virtual ICollection<CollaboratorRole> CollaboratorRoleCollaborators { get; set; } = new List<CollaboratorRole>();
 
     public virtual ICollection<CollaboratorSkill> CollaboratorSkills { get; set; } = new List<CollaboratorSkill>();
 
