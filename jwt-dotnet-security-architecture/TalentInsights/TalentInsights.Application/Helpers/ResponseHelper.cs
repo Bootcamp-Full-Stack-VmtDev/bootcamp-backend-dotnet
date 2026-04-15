@@ -4,7 +4,7 @@ namespace TalentInsights.Application.Helpers
 {
     public static class ResponseHelper
     {
-        public static GenericResponse<T> Create<T>(T data, List<String>? errors = null, string? message = null)
+        public static GenericResponse<T> Create<T>(T data, List<string>? errors = null, string? message = null)
         {
             var response = new GenericResponse<T>
             {
