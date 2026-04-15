@@ -1,10 +1,12 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.IdentityModel.Tokens;
 using Serilog;
 using TalentInsights.Application.Helpers;
 using TalentInsights.Application.Interfaces.Services;
 using TalentInsights.Application.Services;
 using TalentInsights.Domain.Database.SqlServer.Context;
+using TalentInsights.Domain.Exceptions;
 using TalentInsights.Domain.Interfaces.Repositories;
 using TalentInsights.Infrastructure.Persistence.SqlServer.Repositories;
 using TalentInsights.Shared.Constants;
@@ -21,6 +23,8 @@ namespace TalentInsights.WebApi.Extensions
         public static void AddServices(this IServiceCollection services)
         {
             services.AddScoped<ICollaboratorService, CollaboratorService>();
+            services.AddScoped<IAuthService, AuthService>();
+            services.AddScoped<ICacheService, CacheService>();
         }
 
         /// <summary>
@@ -47,25 +51,29 @@ namespace TalentInsights.WebApi.Extensions
                     var response = ResponseHelper.Create(
                         data: ValidationConstants.VALIDATION_MESSAGE,
                         errors: errors,
-                        message: ValidationConstants.VALIDATION_MESSAGE);
+                        message: ValidationConstants.VALIDATION_MESSAGE
+                        );
                     return new BadRequestObjectResult(response);
                 };
-
             });
             // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
             services.AddOpenApi();
 
             var databaseConnectionString = Environment.GetEnvironmentVariable(ConfigurationConstants.CONNECTION_STRING_DATABASE)
-                ?? configuration.GetConnectionString("Database");
+                    ?? configuration[ConfigurationConstants.CONNECTION_STRING_DATABASE];
 
-            services.AddSqlServer<TalentInsightsContext>(configuration.GetConnectionString("Database"));
+            services.AddSqlServer<TalentInsightsContext>(databaseConnectionString);
             services.AddRepositories();
 
             services.AddServices();
 
             services.AddMiddlewares();
 
-            AddLogging(services);
+            services.AddLogging();
+
+            services.AddAuth(configuration);
+
+            services.AddCache();
 
             await Initialize(services);
         }
@@ -80,13 +88,13 @@ namespace TalentInsights.WebApi.Extensions
         }
 
         /// <summary>
-        /// Metodo para añadir todo lo relacionado al logging
+        /// Método para añadir todo lo relacionado al logging
         /// </summary>
         /// <param name="services"></param>
-
         public static void AddLogging(this IServiceCollection services)
         {
             services.AddSerilog();
+
             Log.Logger = new LoggerConfiguration()
                 // File
                 .WriteTo.File(Path.Combine(Directory.GetCurrentDirectory(), "logs", "log.txt"), rollingInterval: RollingInterval.Day)
@@ -95,10 +103,6 @@ namespace TalentInsights.WebApi.Extensions
                 .CreateLogger();
         }
 
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="services"></param>
         public async static Task Initialize(this IServiceCollection services)
         {
             var provider = services.BuildServiceProvider();
@@ -108,7 +112,7 @@ namespace TalentInsights.WebApi.Extensions
             await collaboratorService.CreateFirstUser();
         }
 
-        public static void AddAuth(IServiceCollection services, IConfiguration configuration)
+        public static void AddAuth(this IServiceCollection services, IConfiguration configuration)
         {
             services.AddAuthentication(builder =>
             {
@@ -116,29 +120,35 @@ namespace TalentInsights.WebApi.Extensions
                 builder.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
             }).AddJwtBearer(builder =>
             {
+                var tokenConfiguration = TokenHelper.Configuration(configuration);
 
-                var issuer = Environment.GetEnvironmentVariable(ConfigurationConstants.JWT_ISSUER)
-                    ?? configuration[ConfigurationConstants.JWT_ISSUER]
-                    ?? throw new Exception(ResponseConstants.ConfigurationPropertyNotFound(ConfigurationConstants.JWT_ISSUER));
-
-                var audience = Environment.GetEnvironmentVariable(ConfigurationConstants.JWT_AUDIENCE)
-                    ?? configuration[ConfigurationConstants.JWT_AUDIENCE]
-                    ?? throw new Exception(ResponseConstants.ConfigurationPropertyNotFound(ConfigurationConstants.JWT_AUDIENCE));
-
-                var privateKey = Environment.GetEnvironmentVariable(ConfigurationConstants.JWT_PRIVATE_KEY)
-                    ?? configuration[ConfigurationConstants.JWT_PRIVATE_KEY]
-                    ?? throw new Exception(ResponseConstants.ConfigurationPropertyNotFound(ConfigurationConstants.JWT_PRIVATE_KEY));
-
-                var expirationInMinutes = Environment.GetEnvironmentVariable(ConfigurationConstants.JWT_EXPIRATION_IN_MINUTES)
-                    ?? configuration[ConfigurationConstants.JWT_EXPIRATION_IN_MINUTES]
-                    ?? "10";
-
-                builder.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters
+                builder.TokenValidationParameters = new TokenValidationParameters
                 {
                     ValidateIssuer = true,
-                    ValidIssuer = "http://localhost:5063"
+                    ValidIssuer = tokenConfiguration.Issuer,
+                    ValidateAudience = true,
+                    ValidAudience = tokenConfiguration.Audience,
+                    ValidateLifetime = true,
+                    ValidateIssuerSigningKey = true,
+                    IssuerSigningKey = tokenConfiguration.SecurityKey,
+                    ClockSkew = TimeSpan.Zero
+                };
+
+                builder.Events = new JwtBearerEvents
+                {
+                    OnChallenge = async context =>
+                    {
+                        throw new UnauthorizedException(ResponseConstants.AUTH_TOKEN_NOT_FOUND);
+                    }
                 };
             });
+
+            services.AddAuthorization();
+        }
+
+        public static void AddCache(this IServiceCollection services)
+        {
+            services.AddMemoryCache();
         }
     }
 }
