@@ -1,0 +1,116 @@
+using Microsoft.EntityFrameworkCore;
+using TalentInsights.Domain.Database.SqlServer.Context;
+using TalentInsights.Domain.Database.SqlServer.Entities;
+using TalentInsights.Domain.Interfaces.Repositories;
+
+namespace TalentInsights.Infrastructure.Persistence.SqlServer.Repositories
+{
+	public class CollaboratorRepository(TalentInsightsContext context) : ICollaboratorRepository
+	{
+		public async Task<Collaborator> Create(Collaborator collaborator)
+		{
+			try
+			{
+				// insert
+				await context.Collaborators.AddAsync(collaborator);
+				return collaborator;
+			}
+			catch (Exception)
+			{
+				throw;
+			}
+		}
+
+		public async Task<Collaborator?> Get(Guid collaboratorId)
+		{
+			try
+			{
+				return await context.Collaborators
+					.Include(collaborator => collaborator.CollaboratorRoleCollaborators)
+					.ThenInclude(collaboratorRoles => collaboratorRoles.Role)
+					.FirstOrDefaultAsync(x => x.Id == collaboratorId && x.DeletedAt == null);
+			}
+			catch (Exception)
+			{
+				throw;
+			}
+		}
+
+		public async Task<Collaborator?> Get(string email)
+		{
+			try
+			{
+				return await context.Collaborators
+					.Include(collaborator => collaborator.CollaboratorRoleCollaborators)
+					.ThenInclude(collaboratorRoles => collaboratorRoles.Role)
+					.FirstOrDefaultAsync(x => x.Email == email && x.DeletedAt == null);
+			}
+			catch (Exception)
+			{
+				throw;
+			}
+		}
+
+		public async Task<Role?> GetRole(string name)
+		{
+			return await context.Roles.FirstOrDefaultAsync(x => x.Name == name);
+		}
+
+		public async Task<Role?> GetRole(Guid id)
+		{
+			return await context.Roles.FirstOrDefaultAsync(x => x.Id == id);
+		}
+
+		public async Task<bool> HasCreated()
+		{
+			try
+			{
+				return await context.Collaborators.AnyAsync();
+			}
+			catch
+			{
+				throw;
+			}
+		}
+
+		public async Task<bool> IfExists(Guid collaboratorId)
+		{
+			try
+			{
+				return await context.Collaborators.AnyAsync(x => x.Id == collaboratorId);
+			}
+			catch (Exception)
+			{
+
+				throw;
+			}
+		}
+
+		public IQueryable<Collaborator> Queryable()
+		{
+			try
+			{
+				return context.Collaborators.Where(x => x.DeletedAt == null).AsQueryable();
+			}
+			catch (Exception)
+			{
+
+				throw;
+			}
+		}
+
+		public async Task<Collaborator> Update(Collaborator collaborator)
+		{
+			try
+			{
+				context.Collaborators.Update(collaborator);
+				return collaborator;
+			}
+			catch (Exception)
+			{
+
+				throw;
+			}
+		}
+	}
+}
